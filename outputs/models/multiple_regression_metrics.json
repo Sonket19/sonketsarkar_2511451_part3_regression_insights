@@ -1,0 +1,8 @@
+{
+    "R2_Train": 0.8613,
+    "R2_Test": 0.8251,
+    "RMSE_Train": 38854.28,
+    "RMSE_Test": 41685.41,
+    "MAE_Test": 34165.19,
+    "N_Features": 14
+}

@@ -1,0 +1,45 @@
+
+============================================================
+REGRESSION ANALYSIS – BUSINESS RECOMMENDATION
+============================================================
+Date    : 2026-06-29
+Analyst : sonketsarkar (2511451)
+Dataset : Store performance (320 store-months, 14 features)
+
+MODEL PERFORMANCE
+  R² (Train) : 0.8613 — explains 86.1% of training variance
+  R² (Test)  : 0.8251 — generalises to 82.5% on unseen stores
+  RMSE (Test): ₹41,685.41
+  MAE  (Test): ₹34,165.19
+
+TOP POSITIVE DRIVERS
+        Feature  Coefficient
+       footfall     67646.21
+marketing_spend     23915.63
+    staff_count     19306.97
+
+TOP NEGATIVE DRIVERS
+               Feature  Coefficient
+store_type_Residential    -22747.45
+store_type_High Street    -15539.82
+
+BUSINESS RECOMMENDATIONS
+  1. MARKETING SPEND is the strongest positive driver. Increase budget for
+     underperforming stores first — ROI is highest where baseline spend is low.
+  2. FOOTFALL drives sales — invest in local promotions, in-mall visibility,
+     and events to increase store visits.
+  3. STAFF COUNT correlates positively — understaffed stores leave sales on the
+     table. Review staffing norms for high-footfall periods.
+  4. INVENTORY AVAILABILITY — stock-outs directly lose sales. Improve supply
+     chain reliability to keep availability above 85%.
+  5. HIGH DISCOUNTS may reduce margin without driving proportional volume.
+     Test discount thresholds carefully.
+
+MODEL SELECTION
+              Model      R2      RMSE      MAE
+    Baseline (Mean) -0.0269 100997.28 85200.29
+  Simple (footfall)  0.6899  55501.12 45054.65
+Multiple Regression  0.8251  41685.41 34165.19
+
+Multiple Regression (R²=0.8251) recommended over simple models.
+============================================================

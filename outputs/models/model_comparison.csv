@@ -1,0 +1,4 @@
+Model,R2,RMSE,MAE
+Baseline (Mean),-0.0269,100997.28,85200.29
+Simple (footfall),0.6899,55501.12,45054.65
+Multiple Regression,0.8251,41685.41,34165.19

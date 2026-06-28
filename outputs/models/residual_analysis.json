@@ -1,0 +1,8 @@
+{
+    "Mean": -4463.99,
+    "Std": 41445.7,
+    "Min": -119780.26,
+    "Max": 77860.63,
+    "Shapiro_Wilk_p": 0.3721,
+    "Residuals_Normal": true
+}

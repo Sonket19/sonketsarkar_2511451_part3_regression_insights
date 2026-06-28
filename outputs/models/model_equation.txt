@@ -1,0 +1,11 @@
+MULTIPLE LINEAR REGRESSION MODEL EQUATION
+============================================================
+
+monthly_sales = 677361.84 + 67646.21×footfall + 23915.63×marketing_spend - 22747.45×store_type_Residential + 19306.97×staff_count - 15539.82×store_type_High Street
+
+Top driver interpretation:
+  • 1-unit change in footfall → ₹67,646.21 increase in monthly_sales
+  • 1-unit change in marketing_spend → ₹23,915.63 increase in monthly_sales
+  • 1-unit change in store_type_Residential → ₹22,747.45 decrease in monthly_sales
+  • 1-unit change in staff_count → ₹19,306.97 increase in monthly_sales
+  • 1-unit change in store_type_High Street → ₹15,539.82 decrease in monthly_sales
